@@ -1,0 +1,37 @@
+.my-jumbotron {
+    min-height: 700px;
+    background-image: url("../../../assets/img/desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+h1 {
+    margin-top: 200px;
+    animation-duration: 0.5s;
+    animation-name: animateThis;
+    animation-fill-mode: forwards;
+}
+
+p {
+    animation-duration: 1s;
+    animation-name: animateThis;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animateThis {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0.5;
+    }
+  }
+
+@keyframes slidein {
+    0%   {margin-right:1500px;}
+    100% {margin-right:0px;}
+}
+
+
+
+
